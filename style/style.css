@@ -1,0 +1,37 @@
+.bg-body-color{
+    background-color: #030712;
+}
+.text{
+    color: #D1D5DB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.divider{
+    background-color:#D1D5DB;
+    width: 1px;
+    height: 24px;
+}
+@media only screen and (max-width:688px) {
+    .vr{
+        display: none;
+    }
+    .start{
+        justify-content: start;
+    }
+}
+
+.btn-download{
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    color: black;
+    background: var(--gray-dark-900, #F9FAFB);
+}
+.btn-download:hover{
+    color: white;
+}
