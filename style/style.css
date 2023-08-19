@@ -72,6 +72,11 @@
       color: #D1D5DB;
       text-align: justify;
   }
+  .detail-text-header{
+    color: #D1D5DB;
+    text-align: justify;
+    padding-bottom: 15px;
+  }
 
   .blinking-green {
     animation: 1s blink-green ease infinite;
@@ -82,5 +87,9 @@
 .row img{
     border: 8px solid var(--gray-dark-default, #030712);
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 20px 20px #374151;
+}
+.fa-brands{
+    padding-right: 10px;
 }
   
