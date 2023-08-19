@@ -17,8 +17,8 @@
     .vr{
         display: none;
     }
-    .start{
-        justify-content: start;
+    .btn-download{
+    padding: 6px 40px;
     }
 }
 
