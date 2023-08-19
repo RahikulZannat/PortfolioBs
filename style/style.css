@@ -1,6 +1,39 @@
+/* animation  */
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+
+@keyframes blink-green {
+    from, to {
+      opacity: 0;
+      background-color: green;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+/* mobile view  */
+@media only screen and (max-width:688px) {
+    .vr{
+        display: none;
+    }
+    .btn-download{
+    padding: 6px 40px;
+    }
+}
+
 .bg-body-color{
     background-color: #030712;
 }
+
 .text{
     color: #D1D5DB;
     font-size: 16px;
@@ -13,14 +46,7 @@
     width: 1px;
     height: 24px;
 }
-@media only screen and (max-width:688px) {
-    .vr{
-        display: none;
-    }
-    .btn-download{
-    padding: 6px 40px;
-    }
-}
+
 
 .btn-download{
     display: flex;
@@ -35,3 +61,26 @@
 .btn-download:hover{
     color: white;
 }
+.wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.5s;      
+    animation-iteration-count: infinite; 
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  .detail-text{
+      color: #D1D5DB;
+      text-align: justify;
+  }
+
+  .blinking-green {
+    animation: 1s blink-green ease infinite;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%
+}
+.row img{
+    border: 8px solid var(--gray-dark-default, #030712);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+  
