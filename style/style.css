@@ -132,3 +132,9 @@
     display: flex;
     justify-content: center;
 }
+.detail{
+    color: #D1D5DB;
+}
+.card{
+    background-color: #030712;
+}
