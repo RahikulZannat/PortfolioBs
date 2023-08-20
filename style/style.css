@@ -121,4 +121,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+/* skills section  */
+.col-top, .card{
+    border:none;
+    
+}
+.align{
+    display: flex;
+    justify-content: center;
 }
