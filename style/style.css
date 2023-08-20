@@ -75,7 +75,7 @@
   .detail-text-header{
     color: #D1D5DB;
     text-align: justify;
-    padding-bottom: 15px;
+    padding-bottom: 75px;
   }
 
   .blinking-green {
@@ -106,6 +106,8 @@
     border: 8px solid var(--gray-dark-default, #111827);
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow:-20px 20px #374151;
+    height: 400px;
+    width: 320px;
     
 }
 
