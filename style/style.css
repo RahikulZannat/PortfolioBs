@@ -138,3 +138,35 @@
 .card{
     background-color: #030712;
 }
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+/* .skills:hover{
+    transform: translate(-5px, -10px); 
+} */
+
+
+/* Experience section  */
+.exp-background{
+    background-color: #1F2937;
+    display: flex;
+    width: 896px;
+    padding: 32px;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 0px;
+}
+.job-title{
+    font-size: 20px;
+}
+.fa-circle{
+    font-size: 5px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
