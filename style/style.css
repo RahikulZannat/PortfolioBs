@@ -28,8 +28,10 @@
     .btn-download{
     padding: 6px 40px;
     }
+
 }
 
+/* mobile view end  */
 .bg-body-color{
     background-color: #030712;
 }
@@ -155,7 +157,7 @@
 .exp-background{
     background-color: #1F2937;
     display: flex;
-    width: 896px;
+    width: 75%;
     padding: 32px;
     flex-direction: row;
     justify-content: space-between;
@@ -178,7 +180,6 @@
 }
 .experiences{
     display: flex;
-    padding: 0px 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
