@@ -60,7 +60,11 @@
     color: black;
     background: var(--gray-dark-900, #F9FAFB);
 }
-.btn-download:hover{
+.btn-download a{
+    text-decoration: none;
+    color: black;
+}
+.btn-download a:hover{
     color: white;
 }
 .wave {
