@@ -186,3 +186,19 @@
     gap: 48px;
     align-self: stretch;
 }
+
+/* projects  */
+.left-img img{
+    width: 50%;
+}
+.left-img{
+    background-color: #374151;
+}
+
+.project{
+    width: 576px;
+    height: 480px;
+}
+.right-details{
+    background-color: #1F2937;
+}
