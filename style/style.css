@@ -233,9 +233,6 @@
     border-radius: 12px;
     background: var(--gray-dark-200, #374151);
 }
-.fa-solid{
-    margin-top: 34px;
-}
 .second-right-details{
     background-color: #1F2937;
     width: 480px;
@@ -259,4 +256,22 @@
     padding: 48px;
     border-radius: 60px;
     
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail-text-contact{
+    margin-bottom: 50px;
+    color: #D1D5DB;
+}
+footer a{
+    text-decoration: none;
+    color: #D1D5DB;
+}
+footer{
+    background-color: #111827;
+    padding: 10px;
 }
